@@ -8,7 +8,7 @@ describe 'Hash of Hash (HoH)' do
       end
 
       describe 'returns a giant HoH built from the PORTION_* constants that allows' do
-        it 'its third sub_category to have the label "Order"' dohttps://learn.co/tracks/fswd-prework-2-01/fswd-prework-2-01-fswd-prework/fswd-prework-2-01-fswd-prework-working-with-nested-data-structures/fswd-prework-2-01-fswd-prework-working-with-nested-data-structures-hashes-of-hashes-lab#
+        it 'its third sub_category to have the label "Order"' do https://learn.co/tracks/fswd-prework-2-01/fswd-prework-2-01-fswd-prework/fswd-prework-2-01-fswd-prework-working-with-nested-data-structures/fswd-prework-2-01-fswd-prework-working-with-nested-data-structures-hashes-of-hashes-lab#
           starting_node = naming_system
           expect(starting_node[:sub_category][:sub_category][:sub_category][:label]).to eq("Order")
         end
